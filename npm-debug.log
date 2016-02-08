@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.1.1/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.1.1/bin/npm',
+1 verbose cli   'view',
+1 verbose cli   '@dirkgietelink/workspace' ]
+2 info using npm@3.7.1
+3 info using node@v4.1.1
+4 silly mapToRegistry name @dirkgietelink/workspace
+5 silly mapToRegistry scope (from package name) @dirkgietelink
+6 verbose mapToRegistry no registry URL found in name for scope @dirkgietelink
+7 silly mapToRegistry using default registry
+8 silly mapToRegistry registry http://localhost:15443/
+9 silly mapToRegistry uri http://localhost:15443/@dirkgietelink%2fworkspace
+10 verbose request uri http://localhost:15443/@dirkgietelink%2fworkspace
+11 verbose request no auth needed
+12 info attempt registry request try #1 at 1:09:31 AM
+13 verbose request id 3c80611ef5ca03ed
+14 http request GET http://localhost:15443/@dirkgietelink%2fworkspace
+15 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 127.0.0.1:15443
+16 info attempt registry request try #2 at 1:09:41 AM
+17 http request GET http://localhost:15443/@dirkgietelink%2fworkspace
+18 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 127.0.0.1:15443
+19 info attempt registry request try #3 at 1:10:41 AM
+20 http request GET http://localhost:15443/@dirkgietelink%2fworkspace
+21 silly get cb [ 304, undefined ]
+22 verbose stack Error: failed to fetch from registry: http://localhost:15443/@dirkgietelink%2fworkspace
+22 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/lib/cache/caching-client.js:158:27
+22 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/lib/cache/caching-client.js:53:8
+22 verbose stack     at f (/home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/once/once.js:17:25)
+22 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:89:10
+22 verbose stack     at f (/home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/once/once.js:17:25)
+22 verbose stack     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:186:20)
+22 verbose stack     at Request._callback (/home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:163:20)
+22 verbose stack     at self.callback (/home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/request/request.js:199:22)
+22 verbose stack     at emitOne (events.js:82:20)
+22 verbose stack     at Request.emit (events.js:169:7)
+23 verbose cwd /home/ubuntu/workspace
+24 error Linux 4.2.0-c9
+25 error argv "/home/ubuntu/.nvm/versions/node/v4.1.1/bin/node" "/home/ubuntu/.nvm/versions/node/v4.1.1/bin/npm" "view" "@dirkgietelink/workspace"
+26 error node v4.1.1
+27 error npm  v3.7.1
+28 error failed to fetch from registry: http://localhost:15443/@dirkgietelink%2fworkspace
+29 error If you need help, you may report this error at:
+29 error     <https://github.com/npm/npm/issues>
+30 verbose exit [ 1, true ]

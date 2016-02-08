@@ -19,5 +19,13 @@
   "keywords": [
     "npm",
     "learning"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirkgietelink/hello-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dirkgietelink/hello-npm/issues"
+  },
+  "homepage": "https://github.com/dirkgietelink/hello-npm#readme"
 }
